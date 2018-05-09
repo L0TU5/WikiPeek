@@ -1,0 +1,83 @@
+.header {
+  top: 0;
+  width: 100%;
+  padding-botton: 2%;
+  background: white;
+  z-index: 1;
+}
+h1 {
+  margin-top: 2%;
+  font-size: 350%;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.search-field {
+  border-radius: 3px;
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 3px 3px 5px #caccce;
+}
+.center {
+  margin: auto;
+  width: 50%;
+}
+#srchBtn {
+  float: right;
+  background: none;
+  border: none;
+}
+#search {
+  width: 60%;
+  margin-right: 0px;
+  border: none;
+}
+#srchBtn:hover {
+  background: #f2f2f2;
+}
+input:focus {
+  outline-width: 0;
+}
+#suggField {
+  display: none;
+  width: 48%;
+  margin: auto;
+  background: #f2f2f2;
+  border: 1px solid #000;
+    border-top: none; 
+}
+.sugg {
+  padding-left: 10px;
+  cursor: pointer;
+  height: 25px;
+  margin: 0px;
+}
+.sugg:hover {
+  background: grey;
+  color: white;
+}
+
+.results {
+  margin: 1% auto;
+  width: 70%;
+  padding-bottom: 1em;
+}
+h2 {
+  font-size: 2em;
+}
+#footer {
+  position: fixed;
+  font-size: 1.5vw;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: white;
+}
+#rndmBtn {
+  background: none;
+  border-radius: 3px;
+  border: 1px solid;
+  box-shadow: 3px 3px 5px #caccce;
+}
+#rndmBtn:hover {
+    background: #f2f2f2;
+}

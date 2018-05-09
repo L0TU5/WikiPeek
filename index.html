@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>WikiPeek </title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/todc-bootstrap/3.3.7-3.3.13/css/bootstrap-theme.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="header">
+  <div class="logo">
+    <h1>Wiki<i class="fa fa-globe"></i>Peek</h1>
+  </div>
+
+  <form class="search-field center">
+    <input id="search" type="text" placeholder="Search..." onkeyup="showSuggs()" />
+    <button id="srchBtn" type="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+  <div id="suggField" class="suggs">
+    <p id='sugg0Field' class="sugg" onclick="suggSelect(0)"></p>
+    <p id='sugg1Field' class="sugg" onclick="suggSelect(1)"></p>
+    <p id='sugg2Field' class="sugg" onclick="suggSelect(2)"></p>
+    <p id='sugg3Field' class="sugg" onclick="suggSelect(3)"></p>
+    <p id='sugg4Field' class="sugg" onclick="suggSelect(4)"></p>
+  </div>
+</div>
+
+<div class="results">
+  <h2 id="titleField"></h2>
+  <p id="article"></p>
+  <div id="resultLink"></div>
+  <br>
+  <p style="text-align:center"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id = "rndmBtn" type="submit">Random Peek</button></a></p>
+</div>
+
+<div id="footer">
+  DC © 2018 <a href="https://www.freecodecamp.org/l0tu5" title="L0TU5's FCC" target="_blank"> <i class="fa fa-free-code-camp"></i></a><a href="https://codepen.io/L0TU5/" title="L0TU5's CodePen" target="_blank" target="_blank"> <i class="fa fa-codepen"></i></a>
+  <a href="https://github.com/L0TU5" title="L0TU5's GitHub" target="_blank"> <i class="fa fa-github"></i></a><a href="www.linkedin.com/in/danielle-monroe" title="L0TU5's LinkedIn" target="_blank"> <i class ="fa fa-linkedin-square"></i></a>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/js/bootstrap.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
